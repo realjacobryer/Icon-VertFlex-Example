@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: flex;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon, .text {
+    padding: 25px;
+    margin-bottom: 22px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.icon {
+    flex-basis: 25%;
+}
+
+.text {
+    flex-basis: 72%;
+}
